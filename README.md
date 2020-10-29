@@ -1,8 +1,8 @@
 # APIAgenda
 
-Xampp 7.2.9-0
-PHP Version 7.2.9
+Xampp 7.2.9-0, 
+PHP Version 7.2.9, 
 Mysql
 
-projeto Api rest PHP com testes Read, ReadOne, Search, Paging, Create, Update, Delete Em config/database.php colocar as credencias de conexão com o banco de dados. abrir setup.php no navegador. Ao abir setup.php será criada a base de dados api_db e serão criadas as tabelas products e categories. Depois abrir test.php e clicar nas opções desejadas.
+Agenda + Api rest com PHP com testes Read, Modificacoes conexao.php colocar as credencias de conexão com o banco de dados. abrir o arquivo cliente.php esta dentro das pastas agenda_api/MATRIZ e alterar as informacoes relaciodas a sua URL: Exeplo: (http://localhost:8080/agendaTelefonica/agenda_api/api/v1/).  Depois abrir o index.php e clicar no nome API REST sera direcionado ao consumo da API no modo JSON.
 
