@@ -9,8 +9,11 @@ Mysql
 Crie o arquivo .htaccess na pasta v1 com as informacoes abaixo para o cURL.
 
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 
 
